@@ -8,7 +8,7 @@
     "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
     "pcheck": "npx prettier --check .",
     "pwrite": "npx prettier --write",
-    "minify": "npx tailwindcss -o build.css --minify"
+    "minify": "npx tailwindcss -o ./dist/final/build.css --minify"
   },
   "keywords": [],
   "author": "",
